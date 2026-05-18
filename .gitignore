@@ -1,6 +1,45 @@
+# Python
 __pycache__/
 *.pyc
-.env
+*.pyo
+*.pyd
+.venv/
 venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Experimental raw data
 datasets/raw/
+datasets/tmp/
+
+# Experimental outputs
 results/tmp/
+results/cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# SSH / keys
+*.pem
+*.key
+
+# Kubernetes temporary files
+*.swp
+
+# Terraform (future-proofing)
+.terraform/
+
+# Docker
+*.tar
